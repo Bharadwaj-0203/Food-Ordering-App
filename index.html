@@ -1,0 +1,62 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container center">
+            <header>
+                <div class="img">
+                    <h1 class="margin-zero">Jimmy's Diner</h1>
+                    <p class="margin-zero">The best burgers and pizzas in town.</p>
+                </div>
+            </header>
+
+            <main class="order-area center">
+                <section id="order-list">
+                </section>
+
+
+                <section class="hide order-details" id="order-details">
+                    <h2 class="order-details-heading">Your order</h2>
+                    <div class="ordered-items-container">
+                        <div id="order-container">
+                            <div class="ordered-item">
+                                <h2 class="ordered-item-title">Pizza</h2>
+                                <button class="remove-btn pointer">remove</button>
+                                <p class="ordered-item-price">$14</p>
+                            </div>
+                        </div>
+                        <div class="line-div"></div>
+                        <div class="order-total">
+                            <h2 class="total-price-heading">Total price:</h2>
+                            <p class="total-price" id="total-price">$0</p>
+                        </div>
+                        <button class="complete-order-btn pointer" id="complete-order">Complete order</button>
+                    </div>
+                </section>
+
+                <section class="hide" id="payment">
+                    
+                    <form>
+                        <div class="form" id="form">
+                            <h2 class="payment-heading">Enter card details</h2>
+                            <input id="name" type="text" placeholder="Enter your name" required>
+                            <input id="number" type="number" placeholder="Enter card number" required>
+                            <input id="cvv" type="password" placeholder="Enter CVV" required>
+                            <button id="submit" class="payment-btn">Pay</button>
+                        </div> 
+                    </form>
+                </section>
+                
+                <section class="hide" id="thanks">
+                    
+                </section>
+            </main>
+        </div>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+

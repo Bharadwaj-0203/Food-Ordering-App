@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  font-family: "Smythe", system-ui;
+  font-weight: 400;
+  background: #dedede;
+}
+
+.container {
+  width: 600px;
+  height: 1161px; /*original-1161*/
+  background: #ffffff;
+  position: relative;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.img {
+  height: 167px;
+  background-image: url("food.jpeg");
+  background-size: cover;
+  background-position: 35% 67%;
+  color: #ffffff;
+}
+
+.order-area {
+  width: 508px;
+  padding-top: 22px;
+}
+
+.item {
+  height: 140px;
+}
+
+.emoji {
+  font-size: 78px;
+}
+
+.margin-zero {
+  margin: 0;
+}
+
+.img h1 {
+  padding: 46px 0 5px 46px;
+}
+
+.img p {
+  padding-left: 46px;
+}
+
+.add-item-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1.5px solid #dedede;
+  background-color: #ffffff;
+  font-weight: 200;
+  font-size: 32px;
+  margin-top: 8px;
+  margin-left: auto;
+}
+
+.item {
+  margin-top: 45px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 30px;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.item-title,
+.item-price {
+  padding: 6px 0;
+}
+
+.item-title {
+  font-size: 28px;
+}
+
+.item-ingredients {
+  font-size: 16px;
+}
+
+.item-price {
+  font-size: 20px;
+}
+
+.item-ingredients {
+  color: #8b8b8b;
+}
+
+.order-details {
+  margin-top: 45px;
+  height: 319px;
+}
+
+.hide {
+  display: none;
+}
+
+.order-details-heading {
+  margin: 0;
+  text-align: center;
+}
+
+.ordered-items-container {
+  margin-top: 44px;
+  padding-bottom: 25px;
+}
+
+.ordered-item {
+  display: flex;
+}
+
+.ordered-item-title,
+.total-price-heading {
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+}
+
+.ordered-item-price,
+.total-price {
+  margin: 0;
+  padding-top: 6px;
+  font-size: 20px;
+  margin-left: auto;
+  padding-right: 2px;
+}
+
+.remove-btn {
+  font-family: verdana;
+  color: #bbbbbb;
+  font-size: 14px;
+  border: none;
+  background: #ffffff;
+  margin: 0;
+  padding: 10px 15px;
+}
+
+.order-total {
+  margin-top: 6px;
+  display: flex;
+}
+
+.complete-order-btn {
+  width: 100%;
+  height: 60px;
+  margin-top: 30px;
+  background-color: #16db99;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+}
+
+.line-div {
+  width: 504px;
+  display: block;
+  margin: 15px auto;
+  border: 1px solid #393333;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.payment {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 524px;
+  background: #ffffff;
+  font-family: verdana;
+  margin-bottom: 100px;
+  top: 25%;
+}
+
+.form {
+  width: 475px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+.payment-btn {
+  width: 100%;
+  height: 72px;
+}
+
+input {
+  margin-bottom: 24px;
+}
+
+input::placeholder {
+  color: #757575;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.payment-heading {
+  font-size: 24px;
+  margin: 0;
+  padding: 46px 0;
+}
+
+.payment-btn {
+  width: 100%;
+  margin-top: 30px;
+  background-color: #16db99;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+}
+
+.thanks-container {
+  display: flex;
+  font-size: 32px;
+  width: 100%;
+  height: 120px;
+  background: #ecfdf5;
+  color: #065f46;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.thanks-container p {
+  margin: 0;
+}
